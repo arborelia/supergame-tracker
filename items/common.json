@@ -2,67 +2,67 @@
   {
     "name": "Red Aura",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/red-aura.png",
     "codes": "red"
   },
   {
     "name": "Blue Aura",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/blue-aura.png",
     "codes": "blue"
   },
   {
     "name": "Springheel Boots",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/boots.png",
     "codes": "boots"
   },
   {
     "name": "Spider Gloves",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/gloves.png",
     "codes": "gloves"
   },
   {
     "name": "Magic Snorkel",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/snorkel.png",
     "codes": "snorkel,scuba"
   },
   {
     "name": "Steelskin Catalyst",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/steelskin.png",
     "codes": "steelskin"
   },
   {
     "name": "Underworld Ticket",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/ticket.png",
     "codes": "ticket"
   },
   {
     "name": "Skeleton Key",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/anykey.png",
     "codes": "anykey"
   },
   {
     "name": "Tesla Badge",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/badge.png",
     "codes": "badge,tesla"
   },
   {
     "name": "Arcadian Mask",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/mask.png",
     "codes": "mask"
   },
   {
     "name": "Arcadian Seal",
     "type": "toggle",
-    "img": "images/key.png",
+    "img": "images/seal.png",
     "codes": "seal"
   },
   {

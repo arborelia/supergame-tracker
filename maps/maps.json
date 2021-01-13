@@ -2,7 +2,7 @@
   {
     "name": "world",
     "img": "images/world-map.png",
-    "location_size": 30,
+    "location_size": 40,
     "location_border_thickness": 3
   }
 ]

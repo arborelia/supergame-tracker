@@ -4,23 +4,24 @@
         "h_alignment": "center",
         "v_alignment": "center",
         "item_margin": "1,2",
+        "item_size": 64,
         "rows": [
             [
                 "red",
                 "blue",
-                "boots",
-                "gloves"
-            ],
-            [
                 "snorkel",
-                "steelskin",
-                "ticket",
-                "anykey"
+                "steelskin"
             ],
             [
+                "boots",
+                "gloves",
                 "badge",
-                "mask",
+                "mask"
+            ],
+            [
+                "anykey",
                 "seal",
+                "ticket",
                 "heart"
             ]
         ]
@@ -62,8 +63,7 @@
                     ]
                 },
                 {
-                    "type": "map",
-                    "orientation": "vertical"
+                    "type": "map"
                 }
             ]
         }
