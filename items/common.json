@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Red Aura",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "red"
+  },
+  {
+    "name": "Blue Aura",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "blue"
+  },
+  {
+    "name": "Springheel Boots",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "boots"
+  },
+  {
+    "name": "Spider Gloves",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "gloves"
+  },
+  {
+    "name": "Magic Snorkel",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "snorkel,scuba"
+  },
+  {
+    "name": "Steelskin Catalyst",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "steelskin"
+  },
+  {
+    "name": "Underworld Ticket",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "ticket"
+  },
+  {
+    "name": "Skeleton Key",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "anykey"
+  },
+  {
+    "name": "Tesla Badge",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "badge,tesla"
+  },
+  {
+    "name": "Arcadian Mask",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "mask"
+  },
+  {
+    "name": "Arcadian Seal",
+    "type": "toggle",
+    "img": "images/key.png",
+    "codes": "seal"
+  },
+  {
+    "name": "Heart Piece",
+    "type": "consumable",
+    "img": "images/heart.png",
+    "codes": "heart",
+    "max_quantity": 6
+  }
+]

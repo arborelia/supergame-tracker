@@ -1,0 +1,1145 @@
+[
+  {
+    "name": "Fishing Village",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1322,
+        "y": 958
+      }
+    ],
+    "sections": [
+      {
+        "name": "Before lobster",
+        "item_count": 1,
+        "access_rules": [
+          "gloves,steelskin,seal",
+          "{seal}"
+        ]
+      },
+      {
+        "name": "After lobster",
+        "item_count": 1,
+        "access_rules": [
+          "gloves,steelskin,seal"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arcadian's Tower",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1670,
+        "y": 760
+      }
+    ],
+    "sections": [
+      {
+        "name": "Item in tower",
+        "item_count": 1
+      },
+      {
+        "name": "Top platform",
+        "item_count": 1,
+        "access_rules": [
+          "gloves",
+          "{}"
+        ]
+      },
+      {
+        "name": "Talk to Arcadian",
+        "item_count": 1,
+        "access_rules": [
+          "red",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lakewood Dungeon (18 items)",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1732,
+        "y": 772,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Left from start",
+        "item_count": 3,
+        "clear_as_group": false
+      },
+      {
+        "name": "Right from start",
+        "item_count": 2,
+        "clear_as_group": false
+      },
+      {
+        "name": "Beyond key door",
+        "item_count": 1
+      },
+      {
+        "name": "Lava diving",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      },
+      {
+        "name": "Subcon entrance",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "red",
+          "boots"
+        ]
+      },
+      {
+        "name": "Above the key door",
+        "item_count": 1,
+        "access_rules": [
+          "red",
+          "gloves",
+          "{}"
+        ]
+      },
+      {
+        "name": "Above kaizo blocks",
+        "item_count": 1,
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Left tower",
+        "item_count": 1,
+        "access_rules": [
+          "gloves,boots"
+        ]
+      },
+      {
+        "name": "Left tower beyond electricity",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "gloves,boots,badge"
+        ]
+      },
+      {
+        "name": "Right tower",
+        "item_count": 3,
+        "clear_as_group": false,
+        "access_rules": [
+          "gloves,boots"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town of Lakewood",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1412,
+        "y": 810
+      }
+    ],
+    "sections": [
+      {
+        "name": "Basement, key girl, upper door",
+        "item_count": 3,
+        "clear_as_group": false
+      }
+    ]
+  },
+  {
+    "name": "Lakewood Bridge",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1554,
+        "y": 810
+      }
+    ],
+    "sections": [
+      {
+        "name": "Left item",
+        "item_count": 1,
+        "access_rules": [
+          "red,blue",
+          "boots",
+          "{}"
+        ]
+      },
+      {
+        "name": "Right item",
+        "item_count": 1,
+        "access_rules": [
+          "blue",
+          "boots",
+          "{}"
+        ]
+      },
+      {
+        "name": "Underwater",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Midland Nook",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1046,
+        "y": 618
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Masher Woods",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1286,
+        "y": 700
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Stillness",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1720,
+        "y": 828
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Sylvan Path",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 742,
+        "y": 472
+      }
+    ],
+    "sections": [
+      {
+        "name": "Turtle friend",
+        "item_count": 1,
+        "access_rules": [
+          "boots",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Southwest Nook",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 775,
+        "y": 922
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Deep Elm Pass",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 528,
+        "y": 810
+      }
+    ],
+    "sections": [
+      {
+        "name": "Underwater",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Basin Runoff",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 966,
+        "y": 794
+      }
+    ],
+    "sections": [
+      {
+        "name": "Midair",
+        "item_count": 1,
+        "access_rules": [
+          "boots,snorkel,steelskin",
+          "{}"
+        ]
+      },
+      {
+        "name": "Across the swamp",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Revolver Bridge",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 886,
+        "y": 1110
+      }
+    ],
+    "sections": [
+      {
+        "name": "Floating island",
+        "item_count": 1,
+        "access_rules": [
+          "boots"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Revolver Crossing",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 900,
+        "y": 1216
+      }
+    ],
+    "sections": [
+      {
+        "name": "Near key lender",
+        "item_count": 1,
+        "access_rules": [
+          "red",
+          "boots"
+        ]
+      },
+      {
+        "name": "Roof",
+        "item_count": 1,
+        "access_rules": [
+          "gloves",
+          "boots",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Desert Ruins (14 items)",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 950,
+        "y": 1448,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Outside",
+        "item_count": 1
+      },
+      {
+        "name": "Outside on balcony",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "gloves",
+          "badge"
+        ]
+      },
+      {
+        "name": "Under the mashers",
+        "item_count": 3,
+        "clear_as_group": false
+      },
+      {
+        "name": "Great Hall",
+        "item_count": 2,
+        "clear_as_group": false
+      },
+      {
+        "name": "Hidden heart spot",
+        "item_count": 1,
+        "access_rules": [
+          "[mask]"
+        ]
+      },
+      {
+        "name": "Rightmost spot",
+        "item_count": 1
+      },
+      {
+        "name": "Oasis",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel"
+        ]
+      },
+      {
+        "name": "Talkative Arcadian",
+        "item_count": 1,
+        "access_rules": [
+          "blue"
+        ]
+      },
+      {
+        "name": "Lava dive",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arcadian's Cache",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1078,
+        "y": 1366
+      }
+    ],
+    "sections": [
+      {
+        "name": "Up a tree",
+        "item_count": 1
+      },
+      {
+        "name": "Cache",
+        "item_count": 1,
+        "access_rules": [
+          "blue",
+          "{}",
+          "gloves,[]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Islands",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1208,
+        "y": 1465
+      }
+    ],
+    "sections": [
+      {
+        "name": "Walk on water",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Astronomer Tower",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 296,
+        "y": 963
+      }
+    ],
+    "sections": [
+      {
+        "name": "Spend 2 keys",
+        "item_count": 1
+      },
+      {
+        "name": "Bring gloves to astronomer",
+        "item_count": 1,
+        "access_rules": [
+          "gloves"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Swamp Town",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 327,
+        "y": 506
+      }
+    ],
+    "sections": [
+      {
+        "name": "Roof",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Sky Pillars (10 items)",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 134,
+        "y": 810,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Underground",
+        "item_count": 1,
+        "access_rules": [
+          "boots,gloves"
+        ]
+      },
+      {
+        "name": "Vanilla gloves spot",
+        "item_count": 1,
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Climb stuff",
+        "item_count": 6,
+        "access_rules": [
+          "boots,gloves"
+        ]
+      },
+      {
+        "name": "Purple zone",
+        "item_count": 1,
+        "access_rules": [
+          "boots,gloves"
+        ]
+      },
+      {
+        "name": "Arcadian",
+        "item_count": 1,
+        "access_rules": [
+          "boots,gloves,mask"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glacial Shelf / Sylvan Path Ledge",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 727,
+        "y": 412
+      },
+      {
+        "map": "world",
+        "x": 600,
+        "y": 266
+      }
+    ],
+    "sections": [
+      {
+        "name": "In midair",
+        "item_count": 1,
+        "access_rules": [
+          "boots",
+          "{}"
+        ]
+      },
+      {
+        "name": "Dropped gem door",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Errol's Road",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 680,
+        "y": 322
+      }
+    ],
+    "sections": [
+      {
+        "name": "Under fake lava",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Highborne Cavern",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 822,
+        "y": 338
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Lost Key Cave",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 880,
+        "y": 384
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Catacombs of Hope",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1335,
+        "y": 328
+      }
+    ],
+    "sections": [
+      {
+        "name": "Open",
+        "item_count": 1
+      },
+      {
+        "name": "High ledge",
+        "item_count": 1,
+        "access_rules": [
+          "boots",
+          "gloves",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arc of Fire",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 935,
+        "y": 312
+      }
+    ],
+    "sections": [
+      {
+        "name": "Between platforms",
+        "item_count": 1
+      },
+      {
+        "name": "Under lava",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,steelskin",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snow Town",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1366,
+        "y": 42
+      }
+    ],
+    "sections": [
+      {
+        "name": "Take this key",
+        "item_count": 1
+      },
+      {
+        "name": "What a downer",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Higgins Hovel",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 903,
+        "y": 137
+      }
+    ],
+    "sections": [
+      {
+        "name": "Single item",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Frostbite Pass",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 600,
+        "y": 122
+      }
+    ],
+    "sections": [
+      {
+        "name": "Beyond door",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,boots"
+        ]
+      },
+      {
+        "name": "Left from fake spike pit",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,boots"
+        ]
+      },
+      {
+        "name": "Right from fake spike pit",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,boots",
+          "snorkel,gloves"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glacial Palace (11 items)",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 551,
+        "y": 42,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Open items including pedestal",
+        "item_count": 7,
+        "clear_as_group": false,
+        "access_rules": []
+      },
+      {
+        "name": "Upper cave",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "boots",
+          "gloves"
+        ]
+      },
+      {
+        "name": "Hovering item",
+        "item_count": 1,
+        "access_rules": [
+          "boots",
+          "gloves"
+        ]
+      },
+      {
+        "name": "Arcadian door",
+        "item_count": 1,
+        "access_rules": [
+          "seal,boots",
+          "{seal}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "North bridge",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 885,
+        "y": 568
+      }
+    ],
+    "sections": [
+      {
+        "name": "Underwater",
+        "item_count": 1,
+        "access_rules": [
+          "scuba"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "South bridge",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1110,
+        "y": 844
+      }
+    ],
+    "sections": [
+      {
+        "name": "Top left",
+        "item_count": 1,
+        "access_rules": [
+          "boots",
+          "blue",
+          "{}"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Subterranea (21 items)",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1015,
+        "y": 738,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Right side toxic swimming",
+        "item_count": 4,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      },
+      {
+        "name": "Right side past electricity",
+        "item_count": 1,
+        "access_rules": [
+          "badge"
+        ]
+      },
+      {
+        "name": "Right side zappy cliff",
+        "item_count": 1,
+        "access_rules": [
+          "{red,boots}",
+          "{red,blue}",
+          "red,boots,badge",
+          "red,blue,badge",
+          "boots,gloves"
+        ]
+      },
+      {
+        "name": "Crab platform",
+        "item_count": 1,
+        "access_rules": [
+          "red",
+          "boots",
+          "{snorkel}"
+        ]
+      },
+      {
+        "name": "Top middle",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "red,blue",
+          "snorkel",
+          "boots,gloves"
+        ]
+      },
+      {
+        "name": "Middle left cavern + pedestal",
+        "item_count": 3,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel",
+          "red",
+          "boots"
+        ]
+      },
+      {
+        "name": "Top left door maze",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,badge",
+          "boots,gloves,badge"
+        ]
+      },
+      {
+        "name": "Left cavern upper path",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel,gloves",
+          "red,gloves",
+          "boots",
+          "red,badge"
+        ]
+      },
+      {
+        "name": "Ceiling items",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "boots",
+          "red,gloves",
+          "scuba,gloves",
+          "{red}",
+          "{scuba}"
+        ]
+      },
+      {
+        "name": "Left side toxic path to heart",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "snorkel,steelskin"
+        ]
+      },
+      {
+        "name": "Electric nook near heart path",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel,steelskin,badge"
+        ]
+      },
+      {
+        "name": "Fishing village entrance",
+        "item_count": 1,
+        "access_rules": [
+          "snorkel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underworld",
+    "access_rules": [
+      "ticket,gloves,boots"
+    ],
+    "children": [
+      {
+        "name": "A Hole in the World",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 293,
+            "y": 1351
+          }
+        ],
+        "sections": [
+          {
+            "name": "Green gems",
+            "item_count": 5,
+            "clear_as_group": false
+          }
+        ]
+      },
+      {
+        "name": "Welcome Oblivion",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 373,
+            "y": 1431
+          }
+        ],
+        "sections": [
+          {
+            "name": "Green gems",
+            "item_count": 3,
+            "clear_as_group": false
+          }
+        ]
+      },
+      {
+        "name": "Every Fleeting Memory",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 500,
+            "y": 1478
+          }
+        ],
+        "sections": [
+          {
+            "name": "Green gems",
+            "item_count": 3,
+            "clear_as_group": false
+          }
+        ]
+      },
+      {
+        "name": "Never Fades to Gray",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 373,
+            "y": 1527
+          }
+        ],
+        "sections": []
+      },
+      {
+        "name": "The Last Hurrah",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 421,
+            "y": 1351
+          }
+        ],
+        "sections": [
+          {
+            "name": "Green gems",
+            "item_count": 6,
+            "clear_as_group": false
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Landing",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 645,
+            "y": 1478
+          }
+        ],
+        "sections": [
+          {
+            "name": "Green gem",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lair of the Hollow King",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 1238,
+        "y": 314,
+        "size": 60
+      }
+    ],
+    "sections": [
+      {
+        "name": "Lair",
+        "item_count": 11,
+        "clear_as_group": false,
+        "access_rules": [
+          "boots,gloves,snorkel,steelskin,heart:6"
+        ]
+      },
+      {
+        "name": "Hollow heart",
+        "item_count": 4,
+        "clear_as_group": false,
+        "access_rules": [
+          "boots,gloves,snorkel,steelskin,heart:6"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "House of Baffle",
+    "map_locations": [
+      {
+        "map": "world",
+        "x": 106,
+        "y": 134
+      }
+    ],
+    "sections": [
+      {
+        "name": "Wrong door",
+        "item_count": 1
+      },
+      {
+        "name": "Door XXVII",
+        "item_count": 1
+      },
+      {
+        "name": "Magenta room",
+        "item_count": 2,
+        "clear_as_group": false,
+        "access_rules": [
+          "gloves,boots"
+        ]
+      },
+      {
+        "name": "The Witness 100%",
+        "item_count": 1,
+        "access_rules": [
+          "gloves,boots"
+        ]
+      }
+    ]
+  }
+]
