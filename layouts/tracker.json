@@ -5,6 +5,7 @@
         "v_alignment": "center",
         "item_margin": "1,2",
         "item_size": 64,
+        "badge_font_size": 20,
         "rows": [
             [
                 "red",
@@ -63,7 +64,10 @@
                     ]
                 },
                 {
-                    "type": "map"
+                    "type": "map",
+                    "maps": [
+                        "world"
+                    ]
                 }
             ]
         }

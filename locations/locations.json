@@ -398,25 +398,19 @@
         ]
       },
       {
-        "name": "Under the mashers",
-        "item_count": 3,
+        "name": "Past the mashers",
+        "item_count": 4,
         "clear_as_group": false
       },
       {
         "name": "Great Hall",
-        "item_count": 2,
+        "item_count": 1,
         "clear_as_group": false
       },
       {
-        "name": "Hidden heart spot",
-        "item_count": 1,
-        "access_rules": [
-          "[mask]"
-        ]
-      },
-      {
-        "name": "Rightmost spot",
-        "item_count": 1
+        "name": "Right side",
+        "item_count": 2,
+        "clear_as_group": false
       },
       {
         "name": "Oasis",
@@ -554,6 +548,7 @@
       {
         "name": "Climb stuff",
         "item_count": 6,
+        "clear_as_group": false,
         "access_rules": [
           "boots,gloves"
         ]
@@ -569,7 +564,7 @@
         "name": "Arcadian",
         "item_count": 1,
         "access_rules": [
-          "boots,gloves,mask"
+          "boots,gloves,[mask]"
         ]
       }
     ]
@@ -1134,7 +1129,7 @@
         ]
       },
       {
-        "name": "The Witness 100%",
+        "name": "The Witness 100% Speedrun",
         "item_count": 1,
         "access_rules": [
           "gloves,boots"

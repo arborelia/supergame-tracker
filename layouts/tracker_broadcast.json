@@ -3,6 +3,7 @@
         "type": "itemgrid",
         "h_alignment": "center",
         "item_margin": "1,2",
+        "badge_font_size": 20,
         "rows": [
             [
                 "red",
@@ -43,7 +44,10 @@
                 "height": 360,
                 "margin": "0,0,0,0",
                 "content": {
-                    "type": "map"
+                    "type": "map",
+                    "maps": [
+                        "world"
+                    ]
                 }
             }
         ]
