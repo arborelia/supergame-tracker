@@ -356,55 +356,6 @@
     ]
   },
   {
-    "name": "Sky Pillars (10 items)",
-    "map_locations": [
-      {
-        "map": "world",
-        "x": 134,
-        "y": 810,
-        "size": 60
-      }
-    ],
-    "sections": [
-      {
-        "name": "Underground",
-        "item_count": 1,
-        "access_rules": [
-          "boots,gloves"
-        ]
-      },
-      {
-        "name": "Vanilla gloves spot",
-        "item_count": 1,
-        "access_rules": [
-          "boots"
-        ]
-      },
-      {
-        "name": "Climb stuff",
-        "item_count": 6,
-        "clear_as_group": false,
-        "access_rules": [
-          "boots,gloves"
-        ]
-      },
-      {
-        "name": "Purple zone",
-        "item_count": 1,
-        "access_rules": [
-          "boots,gloves"
-        ]
-      },
-      {
-        "name": "Arcadian",
-        "item_count": 1,
-        "access_rules": [
-          "boots,gloves,[mask]"
-        ]
-      }
-    ]
-  },
-  {
     "name": "Glacial Shelf / Sylvan Path Ledge",
     "map_locations": [
       {
@@ -604,50 +555,6 @@
     ]
   },
   {
-    "name": "Glacial Palace (11 items)",
-    "map_locations": [
-      {
-        "map": "world",
-        "x": 551,
-        "y": 42,
-        "size": 60
-      }
-    ],
-    "sections": [
-      {
-        "name": "Open items including pedestal",
-        "item_count": 7,
-        "clear_as_group": false,
-        "access_rules": []
-      },
-      {
-        "name": "Upper cave",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "boots",
-          "gloves"
-        ]
-      },
-      {
-        "name": "Hovering item",
-        "item_count": 1,
-        "access_rules": [
-          "boots",
-          "gloves"
-        ]
-      },
-      {
-        "name": "Arcadian door",
-        "item_count": 1,
-        "access_rules": [
-          "seal,boots",
-          "{seal}"
-        ]
-      }
-    ]
-  },
-  {
     "name": "North bridge",
     "map_locations": [
       {
@@ -684,127 +591,6 @@
           "boots",
           "blue",
           "{}"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Subterranea (21 items)",
-    "map_locations": [
-      {
-        "map": "world",
-        "x": 1015,
-        "y": 738,
-        "size": 60
-      }
-    ],
-    "sections": [
-      {
-        "name": "Right side toxic swimming",
-        "item_count": 4,
-        "clear_as_group": false,
-        "access_rules": [
-          "snorkel,steelskin"
-        ]
-      },
-      {
-        "name": "Right side past electricity",
-        "item_count": 1,
-        "access_rules": [
-          "badge"
-        ]
-      },
-      {
-        "name": "Right side zappy cliff",
-        "item_count": 1,
-        "access_rules": [
-          "{red,boots}",
-          "{red,blue}",
-          "red,boots,badge",
-          "red,blue,badge",
-          "boots,gloves"
-        ]
-      },
-      {
-        "name": "Crab platform",
-        "item_count": 1,
-        "access_rules": [
-          "red",
-          "boots",
-          "{snorkel}"
-        ]
-      },
-      {
-        "name": "Top middle",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "red,blue",
-          "snorkel",
-          "boots,gloves"
-        ]
-      },
-      {
-        "name": "Middle left cavern + pedestal",
-        "item_count": 3,
-        "clear_as_group": false,
-        "access_rules": [
-          "snorkel",
-          "red",
-          "boots"
-        ]
-      },
-      {
-        "name": "Top left door maze",
-        "item_count": 1,
-        "access_rules": [
-          "snorkel,badge",
-          "boots,gloves,badge"
-        ]
-      },
-      {
-        "name": "Left cavern upper path",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "snorkel,gloves",
-          "red,gloves",
-          "boots",
-          "red,badge"
-        ]
-      },
-      {
-        "name": "Ceiling items",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "boots",
-          "red,gloves",
-          "scuba,gloves",
-          "{red}",
-          "{scuba}"
-        ]
-      },
-      {
-        "name": "Left side toxic path to heart",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "snorkel,steelskin"
-        ]
-      },
-      {
-        "name": "Electric nook near heart path",
-        "item_count": 1,
-        "access_rules": [
-          "snorkel,steelskin,badge"
-        ]
-      },
-      {
-        "name": "Fishing village entrance",
-        "item_count": 1,
-        "access_rules": [
-          "snorkel"
         ]
       }
     ]
@@ -960,8 +746,7 @@
             "item_count": 18,
             "clear_as_group": false,
             "access_rules": [
-              "[snorkel,steelskin,badge,boots,gloves]",
-              "[]"
+              "[snorkel],[steelskin],[badge],[boots],[gloves]"
             ]
           }
         ]
@@ -1342,9 +1127,8 @@
             "item_count": 14,
             "clear_as_group": false,
             "access_rules": [
-              "snorkel,steelskin,blue,badge",
-              "snorkel,steelskin,blue,gloves",
-              "[]"
+              "[snorkel],[steelskin],[blue],[badge]",
+              "[snorkel],[steelskin],[blue],[gloves]"
             ]
           }
         ]
@@ -1602,6 +1386,27 @@
     ],
     "children": [
       {
+        "name": "Sky Pillars",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 134,
+            "y": 810,
+            "size": 60
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "item_count": 10,
+            "clear_as_group": false,
+            "access_rules": [
+              "[gloves],[mask]"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Below pillars",
         "map_locations": [
           {
@@ -1793,6 +1598,27 @@
   {
     "name": "Glacial Palace",
     "children": [
+      {
+        "name": "Glacial Palace (11 items)",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 551,
+            "y": 42,
+            "size": 60
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "item_count": 11,
+            "clear_as_group": false,
+            "access_rules": [
+              "[boots],[seal]"
+            ]
+          }
+        ]
+      },
       {
         "name": "Entryway",
         "map_locations": [
@@ -2007,36 +1833,577 @@
     ]
   },
   {
-    "name": "House of Baffle",
-    "map_locations": [
+    "name": "Subterranea",
+    "children": [
       {
-        "map": "world",
-        "x": 106,
-        "y": 134
-      }
-    ],
-    "sections": [
-      {
-        "name": "Wrong door",
-        "item_count": 1
-      },
-      {
-        "name": "Door XXVII",
-        "item_count": 1
-      },
-      {
-        "name": "Magenta room",
-        "item_count": 2,
-        "clear_as_group": false,
-        "access_rules": [
-          "gloves,boots"
+        "name": "Subterranea",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 1015,
+            "y": 738,
+            "size": 60
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dungeon",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": [
+              "[snorkel],[steelskin],[badge],[red],[blue]",
+              "[snorkel],[steelskin],[badge],[red],[boots]",
+              "[snorkel],[steelskin],[badge],[boots],[gloves]"
+            ]
+          }
         ]
       },
       {
-        "name": "The Witness 100% Speedrun",
-        "item_count": 1,
-        "access_rules": [
-          "gloves,boots"
+        "name": "Right pool past fish skeleton",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 4835,
+            "y": 5107
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Right toxic pool",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3930,
+            "y": 4909
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Second toxic pool from right",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3790,
+            "y": 5147
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Third toxic pool from right",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3592,
+            "y": 5273
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Right side past electricity",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 4297,
+            "y": 4571
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "badge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zappy cliff",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3466,
+            "y": 4635
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "{red,boots}",
+              "{red,blue}",
+              "red,boots,badge",
+              "red,blue,badge",
+              "boots,gloves"
+            ],
+            "capture_item": true
+          }
+        ]
+      },
+      {
+        "name": "Crab platform",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3128,
+            "y": 4904
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "red",
+              "boots",
+              "{snorkel}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Under top middle door",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 2618,
+            "y": 4291
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "red,blue",
+              "boots,gloves",
+              "snorkel"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Top middle key nook",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 2136,
+            "y": 4397
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "red,blue",
+              "boots,gloves",
+              "snorkel"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electric pedestal",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1376,
+            "y": 4653
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel",
+              "red",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern secret",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 2034,
+            "y": 5245
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel",
+              "red",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern floor",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 938,
+            "y": 5165
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel",
+              "red",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern upper ledge",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1440,
+            "y": 4877
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,gloves",
+              "red,gloves",
+              "boots",
+              "red,badge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern upper pit",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1572,
+            "y": 5049
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,gloves",
+              "red,gloves",
+              "boots",
+              "red,badge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Multi-door cave",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1168,
+            "y": 4225
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,badge",
+              "boots,gloves,badge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern ceiling item",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1990,
+            "y": 4909
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "boots",
+              "red,gloves",
+              "scuba,gloves",
+              "{red}",
+              "{scuba}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Middle cavern high ceiling item",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 2202,
+            "y": 4589
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "boots",
+              "red,gloves",
+              "snorkel,gloves",
+              "{red}",
+              "{snorkel}"
+            ],
+            "capture_item": true
+          }
+        ]
+      },
+      {
+        "name": "Left side toxic swimming",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 682,
+            "y": 4905
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin",
+              "{snorkel}"
+            ],
+            "capture_item": true
+          }
+        ]
+      },
+      {
+        "name": "Left side heart pedestal",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1730,
+            "y": 5521
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Left side electric nook",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 1498,
+            "y": 5305
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel,steelskin,badge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fishing village entrance",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 3932,
+            "y": 4474
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "snorkel"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "House of Baffle",
+    "children": [
+      {
+        "name": "House of Baffle",
+        "map_locations": [
+          {
+            "map": "world",
+            "x": 106,
+            "y": 134
+          }
+        ],
+        "sections": [
+          {
+            "name": "What",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "[gloves],[boots]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wrong door",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 5719,
+            "y": 3892
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "XXVII",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 5555,
+            "y": 4472
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Magenta room start",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 5119,
+            "y": 3786
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "boots,gloves"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Masher item",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 5777,
+            "y": 3704
+          }
+        ],
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "access_rules": [
+              "boots,gloves"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bad Gameplay Museum",
+        "map_locations": [
+          {
+            "map": "dungeons",
+            "x": 5585,
+            "y": 3656
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Witness 100% Speedrun",
+            "item_count": 1,
+            "access_rules": [
+              "boots,gloves"
+            ]
+          }
         ]
       }
     ]
