@@ -44,9 +44,26 @@
                 "height": 360,
                 "margin": "0,0,0,0",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "world"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "World Map",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "world"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dungeons",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dungeons"
+                                ]
+                            }
+                        }
                     ]
                 }
             }

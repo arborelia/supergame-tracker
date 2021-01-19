@@ -4,5 +4,17 @@
     "img": "images/world-map.png",
     "location_size": 40,
     "location_border_thickness": 3
+  },
+  {
+    "name": "dungeons",
+    "img": "images/dungeons.png",
+    "location_size": 80,
+    "location_border_thickness": 3
+  },
+  {
+    "name": "underworld",
+    "img": "images/underworld-caves.png",
+    "location_size": 80,
+    "location_border_thickness": 3
   }
 ]

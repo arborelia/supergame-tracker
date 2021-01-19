@@ -66,10 +66,58 @@
     "codes": "seal"
   },
   {
-    "name": "Heart Piece",
+    "name": "Heart pieces",
     "type": "consumable",
     "img": "images/heart.png",
     "codes": "heart",
     "max_quantity": 6
+  },
+  {
+    "name": "Lakewood Dungeon key items",
+    "type": "consumable",
+    "img": "images/count-lakewood.png",
+    "codes": "lakewood",
+    "max_quantity": 18,
+    "swap_actions": true
+  },
+  {
+    "name": "Desert Ruins key items",
+    "type": "consumable",
+    "img": "images/count-desert.png",
+    "codes": "desert,ruins",
+    "max_quantity": 14,
+    "swap_actions": true
+  },
+  {
+    "name": "Sky Pillars key items",
+    "type": "consumable",
+    "img": "images/count-sky.png",
+    "codes": "sky,pillars",
+    "max_quantity": 10,
+    "swap_actions": true
+  },
+  {
+    "name": "Glacial Palace key items",
+    "type": "consumable",
+    "img": "images/count-ice.png",
+    "codes": "ice,palace,glacial",
+    "max_quantity": 11,
+    "swap_actions": true
+  },
+  {
+    "name": "Subterranean Waterways key items",
+    "type": "consumable",
+    "img": "images/count-subterranea.png",
+    "codes": "subterranea,subterranean,waterways",
+    "max_quantity": 21,
+    "swap_actions": true
+  },
+  {
+    "name": "House of Baffle key iems",
+    "type": "consumable",
+    "img": "images/count-baffle.png",
+    "codes": "baffle",
+    "max_quantity": 5,
+    "swap_actions": true
   }
 ]
