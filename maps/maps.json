@@ -1,7 +1,7 @@
 ﻿[
   {
     "name": "world",
-    "img": "images/world-map.png",
+    "img": "images/overworld-map.png",
     "location_size": 40,
     "location_border_thickness": 3
   },
@@ -13,8 +13,8 @@
   },
   {
     "name": "underworld",
-    "img": "images/underworld-caves.png",
-    "location_size": 80,
+    "img": "images/underworld.png",
+    "location_size": 25,
     "location_border_thickness": 3
   }
 ]
